@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background-color:#191718;
+    position:absolute;
+    width: 150px;
+    min-height: 100vh;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 14px 91px 11px 16px;
+    border-bottom: 0.9px solid #AAAAAA;
+}
+.container{
+    position: absolute;
+    left: 150px;
+    min-height: 100vh;
+}
+.content-container{
+    padding: 0 100px 100px 120px;
+}
+.content-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.content-row img{
+    width: 200px;
+}
+.content-text{
+    background-color: #EFEFEF;
+}
+.text-box{
+    padding: 40px 120px;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 14px;
+}
+.content-col{
+    padding-right: 20px;
+    font-size: 14px;
+}
+.content-col h1{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.content-col img{
+    width: 100px;
+    float: left;
+}
+.footer{
+    border-top: 1px solid #AAAAAA;
+    padding: 20px 120px;
+    font-size: 16px;
+}
